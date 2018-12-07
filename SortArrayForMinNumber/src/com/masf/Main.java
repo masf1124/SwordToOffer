@@ -24,6 +24,9 @@ public class Main {
      * @return
      */
     public static String  printMinNumber(int[] numbers){
+        if(numbers ==null || numbers.length ==0){
+            return "";
+        }
         int numLen = 0 ;//记录numbers数组的长度
         String resultStr = "";//数组中数字连接的结果
 
